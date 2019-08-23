@@ -1,7 +1,7 @@
 {
   "name": "react-runtime",
-  "version": "0.1.3",
-  "description": "Include runtime environment variables in your react app.",
+  "version": "0.1.4",
+  "description": "Include REACT_APP_ environment variables at runtime in your react app.",
   "scripts": {
     "test": "yarn lint && yarn test:unit"
   },

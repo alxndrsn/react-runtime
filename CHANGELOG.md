@@ -1,3 +1,7 @@
+v0.1.4
+======
+* Clarify purpose
+
 v0.1.3
 ======
 * Fix instructions

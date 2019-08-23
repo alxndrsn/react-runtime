@@ -1,7 +1,7 @@
 react-runtime
 =============
 
-Include runtime environment variables in your react app.
+Include `REACT_APP_` environment variables at runtime in your react app.
 
 # Get started
 

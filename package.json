@@ -1,0 +1,21 @@
+{
+  "name": "react-runtime",
+  "version": "0.1.0",
+  "description": "Include runtime environment variables in your react app.",
+  "scripts": {
+    "test": "yarn lint && yarn test:unit"
+  },
+  "bin": {
+    "react-runtime": "./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alxndrsn/react-runtime.git"
+  },
+  "author": "alxndrsn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxndrsn/react-runtime/issues"
+  },
+  "homepage": "https://github.com/alxndrsn/react-runtime#readme"
+}

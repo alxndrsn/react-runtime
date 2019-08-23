@@ -10,8 +10,8 @@ Include runtime environment variables in your react app.
 	# Generate HTML for including in index.html
 	./node_modules/.bin/react-runtime html
 
-	# Add the following to the end of your build script
+	# Add the following directly before launching your react app's server
 	react-runtime generate > build/react-runtime.env.js
 
 	# Replace all references to process.env in your js source with:
-	(process.env.NODE_ENV === 'production' ? window.reactRuntimeEnv : process.env)
+	(e=process.env,e.NODE_ENV === 'production' ? window.reactRuntimeEnv : e)

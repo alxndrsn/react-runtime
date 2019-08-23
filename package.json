@@ -1,6 +1,6 @@
 {
   "name": "react-runtime",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Include REACT_APP_ environment variables at runtime in your react app.",
   "scripts": {
     "test": "yarn lint && yarn test:unit"
@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/alxndrsn/react-runtime/issues"
   },
-  "homepage": "https://github.com/alxndrsn/react-runtime#readme"
+  "homepage": "https://github.com/alxndrsn/react-runtime#readme",
+  "keywords": [
+    "react",
+    "env",
+    "vars",
+    "environment",
+    "variables",
+    "runtime"
+  ]
 }

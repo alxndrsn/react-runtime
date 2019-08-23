@@ -1,3 +1,7 @@
+v1.0.0
+======
+* Add keywords for npmjs.com
+
 v0.1.4
 ======
 * Clarify purpose

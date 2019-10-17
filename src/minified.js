@@ -1,4 +1,6 @@
-const reactEnv = require('./get-env');
-const json = JSON.stringify(reactEnv);
+module.exports = extraEnvVars => {
+  const reactEnv = require('./get-env')(extraEnvVars);
+  const json = JSON.stringify(reactEnv);
 
-console.log(`window.reactRuntimeEnv=${json};`);
+  console.log(`window.reactRuntimeEnv=${json};`);
+};

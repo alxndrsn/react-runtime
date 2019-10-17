@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-const args = process.argv.slice(2);
+const [ command, ...extraEnvVars ] = process.argv.slice(2);
 
-switch(args[0]) {
+switch(command) {
   case 'generate':
-    return require('./generate');
+    return require('./generate')(extraEnvVars);
   case 'minified':
-    return require('./minified');
+    return require('./minified')(extraEnvVars);
   case 'html':
     return require('./html');
   case 'help':
